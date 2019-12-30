@@ -20,7 +20,7 @@ public class CallbyValueandRef {
 		obj.i = 40;
 		obj.j = 33;
 		
-		obj.swap(obj);             ///HEre the function is called and obj is passed as it is another reference to the class.
+		obj.swap(obj);             ///Here the function is called and obj is passed as it is another reference to the class.
 		
 		System.out.println(obj.i);
 		System.out.println(obj.j);
