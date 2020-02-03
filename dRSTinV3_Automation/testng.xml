@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PageObjectModel" parallel="false">
+  
+  <listeners>
+  	<listener
+  		class-name= "ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  
+  
+  <test name="dRSTinV3_Automation">
+    <classes>
+      <class name="LoginPage_test"/>
+      <class name=""/>
+      <class name=""/>
+      <class name=""/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
