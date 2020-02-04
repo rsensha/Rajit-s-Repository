@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dRSTinV3_Tests.manageuserpage_test">
+      <class name="dRSTinV3_Tests.loginpage_test">
         <methods>
-          <include name="closure"/>
-          <include name="createadminuser"/>
           <include name="setup"/>
+          <include name="SuccesfulLogin"/>
+          <include name="closure"/>
         </methods>
-      </class> <!-- dRSTinV3_Tests.manageuserpage_test -->
+      </class> <!-- dRSTinV3_Tests.loginpage_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,12 +8,11 @@
   </listeners>
   
   
-  <test name="dRSTinV3_Automation">
+  <test name="dRSTinV3_TestCases">
     <classes>
-      <class name="LoginPage_test"/>
-      <class name=""/>
-      <class name=""/>
-      <class name=""/>
+      <class name="dRSTinV3_Tests.loginpage_test"/>
+      <class name="dRSTinV3_Tests.homepage_test"/>
+      
       
       
     </classes>

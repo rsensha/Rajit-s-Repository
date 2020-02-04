@@ -108,15 +108,15 @@ public class dRSTinV3_UserPage extends baseclass{
 	}
 	
 	
-	public void Addnonadminuser(String Firstname, String email, String username, String password) throws Exception {
+	public void Addnonadminuser() throws Exception {
 		
 		Thread.sleep(2000);
 		
 		Addnewuserbutton.click();
-		Adduser_Fullnamefield.sendKeys(Firstname);
-		Addduser_emailfield.sendKeys(email);
-		Adduser_loginidfield.sendKeys(username);
-		Adduser_passwordfield.sendKeys(password);
+		Adduser_Fullnamefield.sendKeys("Firstname");
+		Addduser_emailfield.sendKeys("email");
+		Adduser_loginidfield.sendKeys("username");
+		Adduser_passwordfield.sendKeys("password");
 		
 		//Adduser_designationfield.sendKeys("RRR");
 		Adduser_groupselection_Admin.click();
