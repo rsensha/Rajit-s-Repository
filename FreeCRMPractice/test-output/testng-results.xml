@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="126201" started-at="2020-02-07T09:54:45Z" finished-at="2020-02-07T09:56:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="126201" started-at="2020-02-07T09:54:45Z" finished-at="2020-02-07T09:56:52Z">
+      <class name="Tests.companies_test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.companies_test@589838eb]" name="setup" is-config="true" duration-ms="19443" started-at="2020-02-07T09:54:46Z" finished-at="2020-02-07T09:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newcompcreation(java.lang.String, java.lang.String)[pri:0, instance:Tests.companies_test@589838eb]" name="newcompcreation" duration-ms="9361" started-at="2020-02-07T09:55:05Z" data-provider="getinfo" finished-at="2020-02-07T09:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ERT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22/2 AJ Road]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcompcreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.companies_test@589838eb]" name="teardown" is-config="true" duration-ms="5688" started-at="2020-02-07T09:55:15Z" finished-at="2020-02-07T09:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.companies_test@589838eb]" name="setup" is-config="true" duration-ms="16310" started-at="2020-02-07T09:55:20Z" finished-at="2020-02-07T09:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newcompcreation(java.lang.String, java.lang.String)[pri:0, instance:Tests.companies_test@589838eb]" name="newcompcreation" duration-ms="8345" started-at="2020-02-07T09:55:37Z" data-provider="getinfo" finished-at="2020-02-07T09:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AJ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12/3 CV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcompcreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.companies_test@589838eb]" name="teardown" is-config="true" duration-ms="5712" started-at="2020-02-07T09:55:45Z" finished-at="2020-02-07T09:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.companies_test@589838eb]" name="setup" is-config="true" duration-ms="16495" started-at="2020-02-07T09:55:51Z" finished-at="2020-02-07T09:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newcompcreation(java.lang.String, java.lang.String)[pri:0, instance:Tests.companies_test@589838eb]" name="newcompcreation" duration-ms="8448" started-at="2020-02-07T09:56:07Z" data-provider="getinfo" finished-at="2020-02-07T09:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[421 RN AV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcompcreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.companies_test@589838eb]" name="teardown" is-config="true" duration-ms="5706" started-at="2020-02-07T09:56:16Z" finished-at="2020-02-07T09:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.companies_test@589838eb]" name="setup" is-config="true" duration-ms="16076" started-at="2020-02-07T09:56:21Z" finished-at="2020-02-07T09:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newcompcreation(java.lang.String, java.lang.String)[pri:0, instance:Tests.companies_test@589838eb]" name="newcompcreation" duration-ms="8405" started-at="2020-02-07T09:56:37Z" data-provider="getinfo" finished-at="2020-02-07T09:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CXZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33 MBChwk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcompcreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.companies_test@589838eb]" name="teardown" is-config="true" duration-ms="5709" started-at="2020-02-07T09:56:46Z" finished-at="2020-02-07T09:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.companies_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
