@@ -26,17 +26,19 @@ public class reader {
 				
 				ArrayList<Object[]> ar = new ArrayList<Object[]>();
 				
-				reader = new Xls_Reader("C:\\Users\\Rajit\\Documents\\Exceldatafectexcel.xlsx");
+				reader = new Xls_Reader("Y:\\eclipse workspace\\dRSTinV3_Automation"
+						+ "\\Test Data\\Excel Data for dRSTin.xlsx");
 				
 				for (int rowNum = 2;rowNum<= 2;rowNum++)
 				{
 					
-					String Firstname = reader.getCellData("Sheet2", "Full Name", rowNum);
-					String email = reader.getCellData("Sheet2", "Email", rowNum);
-					String username = reader.getCellData("Sheet2", "Login ID", rowNum);
-					String password = reader.getCellData("Sheet2", "Password", rowNum);
+					String Field = reader.getCellData("Sheet1", "Field Value", rowNum);
+					String Operator = reader.getCellData("Sheet1", "Operator", rowNum);
+					String Value = reader.getCellData("Sheet1", "Value", rowNum);
 					
-					Object obj[] = {Firstname, email};
+					Object obj[] = {Field , Operator,Value};
+					
+					
 					
 					ar.add(obj);
 					

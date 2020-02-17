@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dRSTinV3_Tests.loginpage_test">
+      <class name="dRSTinV3_Tests.EventCreation_Test">
         <methods>
-          <include name="setup"/>
-          <include name="SuccesfulLogin"/>
-          <include name="closure"/>
+          <include name="eventcreatrionpagenavigation"/>
+          <include name="Setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- dRSTinV3_Tests.loginpage_test -->
+      </class> <!-- dRSTinV3_Tests.EventCreation_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

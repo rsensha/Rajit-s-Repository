@@ -2,31 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28768" started-at="2020-02-04T12:49:43Z" finished-at="2020-02-04T12:50:12Z">
+  <suite name="Default suite" duration-ms="19949" started-at="2020-02-17T13:05:37Z" finished-at="2020-02-17T13:05:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28768" started-at="2020-02-04T12:49:43Z" finished-at="2020-02-04T12:50:12Z">
-      <class name="dRSTinV3_Tests.loginpage_test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:dRSTinV3_Tests.loginpage_test@627551fb]" name="setup" is-config="true" duration-ms="10804" started-at="2020-02-04T12:49:43Z" finished-at="2020-02-04T12:49:54Z">
+    <test name="Default test" duration-ms="19949" started-at="2020-02-17T13:05:37Z" finished-at="2020-02-17T13:05:57Z">
+      <class name="dRSTinV3_Tests.EventCreation_Test">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:dRSTinV3_Tests.EventCreation_Test@59ec2012]" name="Setup" is-config="true" duration-ms="10005" started-at="2020-02-17T13:05:37Z" finished-at="2020-02-17T13:05:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SuccesfulLogin()[pri:0, instance:dRSTinV3_Tests.loginpage_test@627551fb]" name="SuccesfulLogin" duration-ms="12934" started-at="2020-02-04T12:49:54Z" description="Verify that the user is able to log in successfully" finished-at="2020-02-04T12:50:07Z">
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="eventcreatrionpagenavigation()[pri:0, instance:dRSTinV3_Tests.EventCreation_Test@59ec2012]" name="eventcreatrionpagenavigation" duration-ms="5225" started-at="2020-02-17T13:05:47Z" description="Verify that the user is able to navigate to the Event creation page successfully" finished-at="2020-02-17T13:05:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SuccesfulLogin -->
-        <test-method status="PASS" signature="closure(org.testng.ITestResult)[pri:0, instance:dRSTinV3_Tests.loginpage_test@627551fb]" name="closure" is-config="true" duration-ms="5007" started-at="2020-02-04T12:50:07Z" finished-at="2020-02-04T12:50:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SuccesfulLogin status=SUCCESS method=loginpage_test.SuccesfulLogin()[pri:0, instance:dRSTinV3_Tests.loginpage_test@627551fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- eventcreatrionpagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:dRSTinV3_Tests.EventCreation_Test@59ec2012]" name="teardown" is-config="true" duration-ms="4685" started-at="2020-02-17T13:05:53Z" finished-at="2020-02-17T13:05:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closure -->
-      </class> <!-- dRSTinV3_Tests.loginpage_test -->
+        </test-method> <!-- teardown -->
+      </class> <!-- dRSTinV3_Tests.EventCreation_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
