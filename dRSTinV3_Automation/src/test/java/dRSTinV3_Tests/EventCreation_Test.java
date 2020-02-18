@@ -1,7 +1,11 @@
 package dRSTinV3_Tests;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import dRSTinV3_Pages.dRSTinV3_AdvanceQueryPage;
@@ -9,6 +13,7 @@ import dRSTinV3_Pages.dRSTinV3_DBEventCreation;
 import dRSTinV3_Pages.dRSTinV3_Homepage;
 import dRSTinV3_Pages.dRSTinV3_loginpage;
 import dRSTinV3_baseclass.baseclass;
+import dRSTinV3_util.reader;
 
 public class EventCreation_Test extends baseclass{
 	
@@ -35,6 +40,14 @@ public class EventCreation_Test extends baseclass{
 		
 	}
 	
+	@DataProvider()
+	public Iterator<Object[]> getDBdetails(){
+		
+		ArrayList<Object[]> dbdetails = reader.getDBDetails();
+		
+		return dbdetails.iterator();
+	}
+	
 	@Test(description = "Verify that the user is able to navigate to the Event creation page successfully")
 	public void eventcreatrionpagenavigation() throws Exception {
 		
@@ -42,11 +55,14 @@ public class EventCreation_Test extends baseclass{
 		
 	}
 	
-	//@Test(description = "Verify that the useris able to create a new DB event")
-	//public void DBEventCreation() {
+	@Test(dataProvider = "getDBdetails" , description = "Verify that the useris able to create a new DB event")
+	public void DBEventCreation(String DatasetName,String HostName,String DriverName,String DBName,String Username
+			,String Password) throws Exception {
 		
 		
-	//}
+		eventcreationpage.DBsuccessfulEventCreation(DatasetName,HostName , DriverName,DBName,Username,Password);
+		
+	}
 	
 	
 	

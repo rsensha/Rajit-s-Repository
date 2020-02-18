@@ -51,10 +51,13 @@ public class dRSTinV3_DBEventCreation extends baseclass{
 		
 	}
 	
-	public void DBsuccessfulEventCreation() {
+	public void DBsuccessfulEventCreation(String DTSTN ,String HN , String DN, String DBN , String UN, String PWD ) throws Exception {
 		
 		AddnewDatasetbutton.click();
-		Datasetnamefield.sendKeys("yjuyuy");
+		Thread.sleep(2000);
+		Datasetnamefield.sendKeys(DTSTN);
+		ClickOnMysQLFile.click();
+		
 		
 		
 		

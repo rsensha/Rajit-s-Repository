@@ -21,7 +21,7 @@ public class baseclass {
 		
 	
 	
-	FileInputStream ip = new FileInputStream("Y:\\eclipse workspace\\dRSTinV3_Automation\\src\\main\\java\\dRSTinV3_config\\config.properties");
+	FileInputStream ip = new FileInputStream("D:\\Git Repository\\Rajit-s-Repository\\dRSTinV3_Automation\\src\\main\\java\\dRSTinV3_config\\config.properties");
 	
 	prop.load(ip);
 
@@ -37,6 +37,7 @@ public class baseclass {
 			
 			System.setProperty("webdriver.chrome.driver", "Y:\\eclipse-java-2019-06-R-win32-x86_64\\eclipse\\chromedriver.exe");
 			driver = new ChromeDriver();
+			//
 		}
 		
 		else if (browsername.equals("firefox")) {

@@ -49,4 +49,46 @@ public class reader {
 				return ar;
 			
 			}
-}
+			
+			
+			
+				
+				
+				public static ArrayList<Object[]> getDBDetails() {
+					
+					
+					
+					ArrayList<Object[]> arforDB = new ArrayList<Object[]>();
+					
+					reader = new Xls_Reader("D:\\Git Repository\\Rajit-s-Repository\\dRSTinV3_Automation"
+							+ "\\Test Data\\Excel Data for dRSTin.xlsx");
+					
+					for (int rowNum = 2;rowNum<= 2;rowNum++)
+					{
+						String DatasetName = reader.getCellData("DatabaseuploadDetails", "DatasetName", rowNum);
+						String HostName = reader.getCellData("DatabaseuploadDetails", "HostName", rowNum);
+						String DriverName = reader.getCellData("DatabaseuploadDetails", "DriverName", rowNum);
+						String DBName = reader.getCellData("DatabaseuploadDetails", "DBName", rowNum);
+						String Username = reader.getCellData("DatabaseuploadDetails", "Username", rowNum);
+						String Password = reader.getCellData("DatabaseuploadDetails", "Password", rowNum);
+						
+						
+						
+						Object obj1[] = {DatasetName,HostName , DriverName,DBName,Username,Password};
+						
+						
+						
+						arforDB.add(obj1);
+						
+						
+				
+				}
+					
+					return arforDB;
+				
+				}
+				
+				
+				
+			}
+

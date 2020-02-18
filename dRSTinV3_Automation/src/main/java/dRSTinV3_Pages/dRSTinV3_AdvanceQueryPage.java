@@ -4,10 +4,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
-import org.sikuli.script.SikuliException;
+//import org.sikuli.script.FindFailed;
+//import org.sikuli.script.Pattern;
+//import org.sikuli.script.Screen;
+//import org.sikuli.script.SikuliException;
 import org.testng.Assert;
 
 import dRSTinV3_baseclass.baseclass;
@@ -43,19 +43,19 @@ public class dRSTinV3_AdvanceQueryPage extends baseclass{
 	}
 	
 	
-	public void DraganEvent() throws SikuliException, Exception {
-		
-		Screen screen = new Screen();
-		Pattern dataset = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493550801.PNG");
-		Pattern canvas = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493560850.PNG");
-		
-		Pattern filterfunction = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581426637410.png");
-		screen.dragDrop(dataset, canvas);
-		Thread.sleep(4000);
+//	public void DraganEvent() throws SikuliException, Exception {
+//		
+//		Screen screen = new Screen();
+//		Pattern dataset = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493550801.PNG");
+//		Pattern canvas = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493560850.PNG");
+//		
+//		Pattern filterfunction = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581426637410.png");
+//		screen.dragDrop(dataset, canvas);
+//		Thread.sleep(4000);
 		//FunctiontabinAdvanceQuery.click();
 		//screen.dragDrop(filterfunction, canvas);
 		
-	}
+	//}
 	
 
 	
@@ -63,28 +63,28 @@ public class dRSTinV3_AdvanceQueryPage extends baseclass{
 		
 		System.out.println(a + b + c);
 		
-		Screen screen = new Screen();
-		Pattern dataset = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493550801.PNG");
-		Pattern canvas = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493560850.PNG");
-		
-		Pattern filterfunction = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581426637410.png");
-		screen.dragDrop(dataset, canvas);
-		Thread.sleep(4000);
-		FunctiontabinAdvanceQuery.click();
-		screen.dragDrop(filterfunction, canvas);
-		Filterfieldvalue.click();
-		Filterfieldvalue.sendKeys(a);
-		Filterfieldvalue.sendKeys(Keys.ENTER);
-		Thread.sleep(4000);
-		FilterOperatorValue.click();
-		FilterOperatorValue.sendKeys(b);
-		FilterOperatorValue.sendKeys(Keys.ENTER);
-		Thread.sleep(4000);
-		FilterValueField.click();
-		FilterValueField.sendKeys(c);
-		FilterValueField.sendKeys(Keys.ENTER);
-		Thread.sleep(4000);
-		FilterSubmitButton.click();
+//		Screen screen = new Screen();
+//		Pattern dataset = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493550801.PNG");
+//		Pattern canvas = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581493560850.PNG");
+//		
+//		Pattern filterfunction = new Pattern("C:\\Users\\Rajit\\Documents\\DRSTIN NEW IMAGES sikuli.sikuli\\1581426637410.png");
+//		screen.dragDrop(dataset, canvas);
+//		Thread.sleep(4000);
+//		FunctiontabinAdvanceQuery.click();
+//		screen.dragDrop(filterfunction, canvas);
+//		Filterfieldvalue.click();
+//		Filterfieldvalue.sendKeys(a);
+//		Filterfieldvalue.sendKeys(Keys.ENTER);
+//		Thread.sleep(4000);
+//		FilterOperatorValue.click();
+//		FilterOperatorValue.sendKeys(b);
+//		FilterOperatorValue.sendKeys(Keys.ENTER);
+//		Thread.sleep(4000);
+//		FilterValueField.click();
+//		FilterValueField.sendKeys(c);
+//		FilterValueField.sendKeys(Keys.ENTER);
+//		Thread.sleep(4000);
+//		FilterSubmitButton.click();
 		
 		
 		

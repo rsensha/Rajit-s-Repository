@@ -1,6 +1,6 @@
 package dRSTinV3_Pages;
 
-import static org.junit.Assume.assumeTrue;
+//import static org.junit.Assume.assumeTrue;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.WebElement;
