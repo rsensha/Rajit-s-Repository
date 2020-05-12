@@ -41,10 +41,10 @@ public static void main(String[] args) throws Exception {
 
 public static String Username(String Usertype) {
 	
-	String sl = UserDetails().get(Usertype).split(":")[0];
+	String sl = UserDetails().get(Usertype);
 	
 	
-	return sl;
+	return sl.split(":")[0];
 	
 }
 

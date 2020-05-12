@@ -25,7 +25,7 @@ public class ArrayList {
 		
 		for(int i = 0 ; i<arr.size(); i++) {
 			
-			System.out.println(i);			//only array index getting printed
+			System.out.println(i);			//only array index  printed
 			
 			System.out.println(arr.get(i)); 	//printing array value
 		}
