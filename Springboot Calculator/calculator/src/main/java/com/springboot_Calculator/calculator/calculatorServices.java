@@ -8,26 +8,27 @@ import org.springframework.web.bind.annotation.RestController;
 public class calculatorServices {
 	
 	@GetMapping("/add/{x}/{y}")
-	public int addition(@PathVariable int x , @PathVariable int y) {
+	public Response addition(@PathVariable int x , @PathVariable int y) {
 		
-		return  x+y;
+		return new Response(x, y, x+y);
 	}
 	
 	@GetMapping("/sub/{x}/{y}")
-	public int subtraction(@PathVariable int x , @PathVariable int y) {
+	public Response subtraction(@PathVariable int x , @PathVariable int y) {
 		
-		return x-y ; 
+		return new Response(x, y, x-y) ; 
 	}
 	
 	@GetMapping("/div/{x}/{y}")
-	public int division(@PathVariable int x , @PathVariable int y) {
+	public Response division(@PathVariable int x , @PathVariable int y) {
 		
-		return x/y;
+		return new Response(x,y, x/y);
 	}
 	
 	@GetMapping("mul/{x}/{y}")
-	public int multiplication(@PathVariable int x, @PathVariable int y) {
-		return x*y;
+	public Response multiplication(@PathVariable int x, @PathVariable int y) {
+		
+		return new Response(x,y,x*y);
 		
 	}
 
